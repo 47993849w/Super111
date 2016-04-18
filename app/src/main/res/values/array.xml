@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Numero Pokedex</item><item>PS</item>
+        <item>Ataque</item>
+        <item>Ataque esp</item>
+        <item>Defensa esp</item>
+        <item>Defensa</item>
+        <item>Velocidad</item>
+
+        <item>Nombre</item>
+    </string-array>
+</resources>

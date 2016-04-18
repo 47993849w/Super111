@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tomecabello.super1.DetallesActivityFragment">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:fillViewport="true">
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/activity_detail2"
+        tools:context="com.example.tomecabello.super1.DetallesActivityFragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"><![CDATA[
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        ]]>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ataque: "
+            android:id="@+id/ataqu"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/imagen"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defensa: "
+            android:id="@+id/defensa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/ataqu"
+            android:layout_alignRight="@+id/imagen"
+            android:layout_alignEnd="@+id/imagen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:id="@+id/numero"
+            android:layout_below="@+id/nombre"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/nombre"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ataque esp: "
+            android:id="@+id/ataquee"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:layout_below="@+id/defensa"
+            android:layout_marginTop="37dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defensa esp: "
+            android:id="@+id/defensae"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/ataquee"
+            android:layout_alignLeft="@+id/defensa"
+            android:layout_alignStart="@+id/defensa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Velocidad"
+            android:id="@+id/velocidad"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/defensae"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PS (salud): "
+            android:id="@+id/salud"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/velocidad"
+            android:layout_alignLeft="@+id/defensae"
+            android:layout_alignStart="@+id/defensae" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imagen"
+            android:layout_alignTop="@+id/numero"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="18dp"
+            android:id="@+id/iTip"
+            android:layout_below="@+id/imagen"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capturar"
+            android:id="@+id/capturar"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/nombre" />
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
